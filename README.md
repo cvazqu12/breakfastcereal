@@ -4,30 +4,20 @@ Breakfast Cereal is a program designed to better automate the provisioning of ba
 2. Project Overview
 BreakfastCereal will help data center technicians with bare metal IPMI provisioning using a console connection.
 
-4. Problem Statement
-What is the real problem being addressed?
-Brief summary of past attempts to solve this problem. Competitors?
-How does this problem affect the customer, and how do they currently solve it?
-Quantify wasted time, money, or other resources.
-
-The real problem being addressed is the tedious task of provisioning IPMI on bare metal. There are software solutions available, but that requires a complete install and an internet connection, which defeats the purpose. IPMITool also requires the use of an internet connection.
+3. Problem Statement
+The real problem being addressed is the tedious task of provisioning IPMI on bare metal. There are software solutions available, but that requires a complete install on the server side and an internet connection, which defeats the purpose. IPMITool also requires the use of an internet connection on the server side.
 
 This affects technicians with long days of provisioning and managers who have less staff available to focus on more meaningful tasks.
 
-6. ISBA Subfields
-List the 3 ISBA subfields involved.
-Provide a short description of how each subfield is implemented.
+4. ISBA Subfields
+DevOps is implemented through automation of tedious tasks
+Networking is implemented through adding new nodes to an internal network
+Cybersecurity: Allowing privileged access for only a specific task
 
-7. Solution Overview
-Describe how you solved the problem in simple terms.
-Technical Stack: Bullet-point list of the technologies used:
-Programming Languages: (e.g., Python, SQL)
-Frameworks: (e.g., Flask, Django)
-Data Storage: (e.g., MySQL, S3)
-Software/Tools: (e.g., Excel, DBeaver)
-APIs: (e.g., OpenAI)
-Hosting: Cloud/on-premise (e.g., AWS, Azure)
-Data: General description of data (sources, types)
+6. Solution Overview
+* Web App Programming: React, Python, JSON
+* APIs: Web Serial API, Ubersmith API
+* Hosting: On premise
 
 8. Solution Details (Technical Terms)
 More in-depth technical explanation of the solution for peers/technical teams.
